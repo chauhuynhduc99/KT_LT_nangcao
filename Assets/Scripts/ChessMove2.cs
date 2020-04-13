@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChessMove : MonoBehaviour
+public class ChessMove2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
