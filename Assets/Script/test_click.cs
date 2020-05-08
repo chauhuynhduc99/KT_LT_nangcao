@@ -14,6 +14,7 @@ public class test_click : MonoBehaviour
     void Start()
     {
         mousePos = transform.position;
+		
     }
 
     // Update is called once per frame
@@ -25,11 +26,12 @@ public class test_click : MonoBehaviour
 			Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
             
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            if (hit.collider != null) {
-                mousePos = new Vector3(Mathf.Clamp(mousePos.x, minX, maxX), Mathf.Clamp(mousePos.y, minY, maxY), 0);
+            if (hit.collider != null)
+			{
+                mousePos = new Vector3(Mathf.Clamp(mousePos.x, minX, maxX), Mathf.Clamp(mousePos.y, minY, maxY), -2);
                 hit.collider.attachedRigidbody.AddForce(Vector2.up);
             }
-            mousePos = new Vector3(Mathf.Clamp(mousePos.x, minX, maxX), Mathf.Clamp(mousePos.y, minY, maxY), 0);
+            mousePos = new Vector3(Mathf.Clamp(mousePos.x, minX, maxX), Mathf.Clamp(mousePos.y, minY, maxY), -2);
         }
         transform.position = mousePos;
 	}
