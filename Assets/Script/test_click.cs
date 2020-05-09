@@ -5,7 +5,6 @@ using UnityEngine;
 public class test_click : MonoBehaviour
 {
 	Vector3 mousePos;
-	public float moveSpeed = 5000;
     public float minX = -3f;
     public float maxX = 4f;
     public float minY = -3;
