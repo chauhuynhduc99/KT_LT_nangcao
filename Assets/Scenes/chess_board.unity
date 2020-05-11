@@ -4627,6 +4627,7 @@ GameObject:
   - component: {fileID: 991636229}
   - component: {fileID: 991636230}
   - component: {fileID: 991636231}
+  - component: {fileID: 991636232}
   m_Layer: 0
   m_Name: black_knight_2
   m_TagString: black_knight_2
@@ -4724,6 +4725,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &991636232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991636228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!1 &999020761
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,6 +8614,7 @@ GameObject:
   - component: {fileID: 1818514666}
   - component: {fileID: 1818514667}
   - component: {fileID: 1818514668}
+  - component: {fileID: 1818514669}
   m_Layer: 0
   m_Name: black_knight_1
   m_TagString: black_knight_1
@@ -8694,6 +8712,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &1818514669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818514665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!1 &1836409050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9803,6 +9837,7 @@ GameObject:
   - component: {fileID: 2128085469}
   - component: {fileID: 2128085470}
   - component: {fileID: 2128085471}
+  - component: {fileID: 2128085472}
   m_Layer: 0
   m_Name: black_king
   m_TagString: black_king
@@ -9900,3 +9935,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &2128085472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128085468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
