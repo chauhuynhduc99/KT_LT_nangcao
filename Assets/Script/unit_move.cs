@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class white_king : MonoBehaviour {
+public class unit_move : MonoBehaviour {
 	private bool mouse_down;
     Vector3 mousePos;
     public float minX = -3f;
