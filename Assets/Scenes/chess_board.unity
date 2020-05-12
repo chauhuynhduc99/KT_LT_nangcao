@@ -3755,6 +3755,7 @@ GameObject:
   - component: {fileID: 776755374}
   - component: {fileID: 776755375}
   - component: {fileID: 776755378}
+  - component: {fileID: 776755376}
   m_Layer: 0
   m_Name: white_pawn_2
   m_TagString: white_pawn_2
@@ -3826,6 +3827,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &776755376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776755373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274283455f44d1f42b94c5f6b1fc374c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &776755378
 BoxCollider2D:
   m_ObjectHideFlags: 0
