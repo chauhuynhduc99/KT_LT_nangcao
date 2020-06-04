@@ -138,7 +138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &31843485
 BoxCollider:
@@ -231,7 +231,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &61373395
 BoxCollider:
@@ -324,7 +324,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &67294921
 BoxCollider:
@@ -416,7 +416,7 @@ GameObject:
   m_TagString: black_castle_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &78479651
 Transform:
@@ -525,7 +525,7 @@ GameObject:
   m_TagString: white_knight_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &109809132
 Transform:
@@ -603,6 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouse_down: 0
   minX: -3
   maxX: 4
   minY: -3
@@ -650,7 +651,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &203996512
 BoxCollider:
@@ -743,7 +744,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &231670392
 BoxCollider:
@@ -830,12 +831,13 @@ GameObject:
   - component: {fileID: 232160127}
   - component: {fileID: 232160128}
   - component: {fileID: 232160131}
+  - component: {fileID: 232160129}
   m_Layer: 0
   m_Name: white_pawn_6
   m_TagString: white_pawn_6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &232160127
 Transform:
@@ -901,6 +903,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &232160129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232160126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &232160131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -944,7 +963,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &288700273
 BoxCollider:
@@ -1037,7 +1056,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &301373017
 BoxCollider:
@@ -1130,7 +1149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &335746628
 BoxCollider:
@@ -1217,12 +1236,13 @@ GameObject:
   - component: {fileID: 344346589}
   - component: {fileID: 344346590}
   - component: {fileID: 344346593}
+  - component: {fileID: 344346591}
   m_Layer: 0
   m_Name: white_pawn_5
   m_TagString: white_pawn_5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &344346589
 Transform:
@@ -1288,6 +1308,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &344346591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344346588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &344346593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1331,7 +1368,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &348014831
 BoxCollider:
@@ -1424,7 +1461,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &442269084
 BoxCollider:
@@ -1511,12 +1548,13 @@ GameObject:
   - component: {fileID: 452237315}
   - component: {fileID: 452237316}
   - component: {fileID: 452237319}
+  - component: {fileID: 452237317}
   m_Layer: 0
   m_Name: white_pawn_1
   m_TagString: white_pawn_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &452237315
 Transform:
@@ -1582,6 +1620,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &452237317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452237314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &452237319
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1625,7 +1680,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &499000342
 BoxCollider:
@@ -1718,7 +1773,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &506750369
 BoxCollider:
@@ -1811,7 +1866,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &533820130
 BoxCollider:
@@ -1904,7 +1959,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &545933996
 BoxCollider:
@@ -1991,12 +2046,13 @@ GameObject:
   - component: {fileID: 569484626}
   - component: {fileID: 569484627}
   - component: {fileID: 569484630}
+  - component: {fileID: 569484628}
   m_Layer: 0
   m_Name: white_castle_2
   m_TagString: white_castle_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &569484626
 Transform:
@@ -2062,6 +2118,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &569484628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569484625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &569484630
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2104,7 +2177,7 @@ GameObject:
   m_TagString: black_pawn_8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &578674781
 Transform:
@@ -2213,7 +2286,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &578889518
 BoxCollider:
@@ -2306,7 +2379,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &592258505
 BoxCollider:
@@ -2399,7 +2472,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &608290759
 BoxCollider:
@@ -2492,7 +2565,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &638704127
 BoxCollider:
@@ -2585,7 +2658,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &658044361
 BoxCollider:
@@ -2678,7 +2751,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &660487705
 BoxCollider:
@@ -2771,7 +2844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &676387441
 BoxCollider:
@@ -2864,7 +2937,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &677608618
 BoxCollider:
@@ -2956,7 +3029,7 @@ GameObject:
   m_TagString: black_pawn_5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &684435554
 Transform:
@@ -3065,7 +3138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &686985832
 BoxCollider:
@@ -3157,7 +3230,7 @@ GameObject:
   m_TagString: black_bishop_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &700890730
 Transform:
@@ -3266,7 +3339,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &712194094
 BoxCollider:
@@ -3353,12 +3426,13 @@ GameObject:
   - component: {fileID: 721173070}
   - component: {fileID: 721173071}
   - component: {fileID: 721173074}
+  - component: {fileID: 721173072}
   m_Layer: 0
   m_Name: white_bishop_2
   m_TagString: black_bishop_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &721173070
 Transform:
@@ -3424,6 +3498,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &721173072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721173069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &721173074
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3467,7 +3558,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &743057350
 BoxCollider:
@@ -3559,7 +3650,7 @@ GameObject:
   m_TagString: black_pawn_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &769698807
 Transform:
@@ -3668,7 +3759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &772050980
 BoxCollider:
@@ -3755,12 +3846,13 @@ GameObject:
   - component: {fileID: 776755374}
   - component: {fileID: 776755375}
   - component: {fileID: 776755378}
+  - component: {fileID: 776755376}
   m_Layer: 0
   m_Name: white_pawn_2
   m_TagString: white_pawn_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &776755374
 Transform:
@@ -3826,6 +3918,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &776755376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776755373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &776755378
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3868,7 +3977,7 @@ GameObject:
   m_TagString: black_pawn_7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &796339528
 Transform:
@@ -3977,7 +4086,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &802210545
 BoxCollider:
@@ -4070,7 +4179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &832114163
 BoxCollider:
@@ -4240,12 +4349,13 @@ GameObject:
   - component: {fileID: 914622027}
   - component: {fileID: 914622028}
   - component: {fileID: 914622031}
+  - component: {fileID: 914622029}
   m_Layer: 0
   m_Name: white_pawn_3
   m_TagString: white_pawn_3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &914622027
 Transform:
@@ -4311,6 +4421,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &914622029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914622026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &914622031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4354,7 +4481,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &917052293
 BoxCollider:
@@ -4447,7 +4574,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &971644572
 BoxCollider:
@@ -4540,7 +4667,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &982080537
 BoxCollider:
@@ -4627,13 +4754,12 @@ GameObject:
   - component: {fileID: 991636229}
   - component: {fileID: 991636230}
   - component: {fileID: 991636231}
-  - component: {fileID: 991636232}
   m_Layer: 0
   m_Name: black_knight_2
   m_TagString: black_knight_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &991636229
 Transform:
@@ -4725,22 +4851,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &991636232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991636228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minX: -3
-  maxX: 4
-  minY: -3
-  maxY: 4
 --- !u!1 &999020761
 GameObject:
   m_ObjectHideFlags: 0
@@ -4758,7 +4868,7 @@ GameObject:
   m_TagString: white_knight_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &999020762
 Transform:
@@ -4836,6 +4946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouse_down: 0
   minX: -3
   maxX: 4
   minY: -3
@@ -4882,7 +4993,7 @@ GameObject:
   m_TagString: black_pawn_3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1007566543
 Transform:
@@ -4991,7 +5102,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1028639734
 BoxCollider:
@@ -5084,7 +5195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1041571349
 BoxCollider:
@@ -5174,7 +5285,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1057317288
 Transform:
@@ -5223,7 +5334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1078933116
 BoxCollider:
@@ -5316,7 +5427,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1134704402
 BoxCollider:
@@ -5409,7 +5520,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1169548420
 BoxCollider:
@@ -5502,7 +5613,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1174350826
 BoxCollider:
@@ -5594,7 +5705,7 @@ GameObject:
   m_TagString: black_pawn_4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1185180198
 Transform:
@@ -5703,7 +5814,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1189808459
 BoxCollider:
@@ -5796,7 +5907,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1191304118
 BoxCollider:
@@ -5889,7 +6000,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1193576926
 BoxCollider:
@@ -5982,7 +6093,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1194354922
 BoxCollider:
@@ -6075,7 +6186,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1229127218
 BoxCollider:
@@ -6168,7 +6279,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1247285392
 BoxCollider:
@@ -6261,7 +6372,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1252898665
 BoxCollider:
@@ -6354,7 +6465,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1262201889
 BoxCollider:
@@ -6447,7 +6558,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1274868543
 BoxCollider:
@@ -6537,7 +6648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1321665033
 Transform:
@@ -6585,7 +6696,7 @@ GameObject:
   m_TagString: black_pawn_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1325525610
 Transform:
@@ -6693,7 +6804,7 @@ GameObject:
   m_TagString: black_castle_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1326883559
 Transform:
@@ -6796,12 +6907,13 @@ GameObject:
   - component: {fileID: 1344566350}
   - component: {fileID: 1344566351}
   - component: {fileID: 1344566354}
+  - component: {fileID: 1344566352}
   m_Layer: 0
   m_Name: white_castle_1
   m_TagString: white_castle_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1344566350
 Transform:
@@ -6867,6 +6979,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1344566352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344566349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &1344566354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6910,7 +7039,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1365039567
 BoxCollider:
@@ -7003,7 +7132,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1379454231
 BoxCollider:
@@ -7096,7 +7225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1379794383
 BoxCollider:
@@ -7189,7 +7318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1423457082
 BoxCollider:
@@ -7282,7 +7411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1447725650
 BoxCollider:
@@ -7375,7 +7504,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1494927386
 BoxCollider:
@@ -7467,7 +7596,7 @@ GameObject:
   m_TagString: black_pawn_6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1514855209
 Transform:
@@ -7576,7 +7705,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1518209055
 BoxCollider:
@@ -7669,7 +7798,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1555996236
 BoxCollider:
@@ -7762,7 +7891,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1572771818
 BoxCollider:
@@ -7853,7 +7982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1588845037
 SpriteRenderer:
@@ -8000,7 +8129,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1669581235
 BoxCollider:
@@ -8093,7 +8222,7 @@ GameObject:
   m_TagString: white_king
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1702304865
 Transform:
@@ -8171,6 +8300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouse_down: 0
   minX: -3
   maxX: 4
   minY: -3
@@ -8212,12 +8342,13 @@ GameObject:
   - component: {fileID: 1711563425}
   - component: {fileID: 1711563426}
   - component: {fileID: 1711563429}
+  - component: {fileID: 1711563427}
   m_Layer: 0
   m_Name: white_bishop_1
   m_TagString: white_bishop_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1711563425
 Transform:
@@ -8283,6 +8414,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1711563427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711563424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &1711563429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8326,7 +8474,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1752800672
 BoxCollider:
@@ -8419,7 +8567,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1799369089
 BoxCollider:
@@ -8511,7 +8659,7 @@ GameObject:
   m_TagString: black_bishop_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1817648177
 Transform:
@@ -8614,13 +8762,12 @@ GameObject:
   - component: {fileID: 1818514666}
   - component: {fileID: 1818514667}
   - component: {fileID: 1818514668}
-  - component: {fileID: 1818514669}
   m_Layer: 0
   m_Name: black_knight_1
   m_TagString: black_knight_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1818514666
 Transform:
@@ -8712,22 +8859,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &1818514669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818514665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minX: -3
-  maxX: 4
-  minY: -3
-  maxY: 4
 --- !u!1 &1836409050
 GameObject:
   m_ObjectHideFlags: 0
@@ -8745,7 +8876,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1836409051
 BoxCollider:
@@ -8838,7 +8969,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1928240170
 BoxCollider:
@@ -8931,7 +9062,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1976580397
 BoxCollider:
@@ -9018,12 +9149,13 @@ GameObject:
   - component: {fileID: 1986684773}
   - component: {fileID: 1986684774}
   - component: {fileID: 1986684777}
+  - component: {fileID: 1986684775}
   m_Layer: 0
   m_Name: white_queen
   m_TagString: white_queen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1986684773
 Transform:
@@ -9089,6 +9221,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1986684775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986684772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &1986684777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9131,7 +9280,7 @@ GameObject:
   m_TagString: black_queen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2003898068
 Transform:
@@ -9240,7 +9389,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &2026347541
 BoxCollider:
@@ -9333,7 +9482,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &2056850921
 BoxCollider:
@@ -9420,12 +9569,13 @@ GameObject:
   - component: {fileID: 2058968915}
   - component: {fileID: 2058968916}
   - component: {fileID: 2058968919}
+  - component: {fileID: 2058968917}
   m_Layer: 0
   m_Name: white_pawn_4
   m_TagString: white_pawn_4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2058968915
 Transform:
@@ -9491,6 +9641,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2058968917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058968914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &2058968919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9528,12 +9695,13 @@ GameObject:
   - component: {fileID: 2069693080}
   - component: {fileID: 2069693081}
   - component: {fileID: 2069693084}
+  - component: {fileID: 2069693082}
   m_Layer: 0
   m_Name: white_pawn_8
   m_TagString: white_pawn_8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2069693080
 Transform:
@@ -9599,6 +9767,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2069693082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069693079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &2069693084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9636,12 +9821,13 @@ GameObject:
   - component: {fileID: 2119223481}
   - component: {fileID: 2119223482}
   - component: {fileID: 2119223485}
+  - component: {fileID: 2119223483}
   m_Layer: 0
   m_Name: white_pawn_7
   m_TagString: white_pawn_7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2119223481
 Transform:
@@ -9707,6 +9893,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2119223483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119223480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse_down: 0
+  minX: -3
+  maxX: 4
+  minY: -3
+  maxY: 4
 --- !u!61 &2119223485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9750,7 +9953,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &2126339069
 BoxCollider:
@@ -9837,13 +10040,12 @@ GameObject:
   - component: {fileID: 2128085469}
   - component: {fileID: 2128085470}
   - component: {fileID: 2128085471}
-  - component: {fileID: 2128085472}
   m_Layer: 0
   m_Name: black_king
   m_TagString: black_king
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2128085469
 Transform:
@@ -9935,19 +10137,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &2128085472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128085468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02fa72f4b5073d043820f078ec51457f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minX: -3
-  maxX: 4
-  minY: -3
-  maxY: 4
