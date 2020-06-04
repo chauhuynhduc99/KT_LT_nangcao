@@ -10,14 +10,14 @@ public class unit_move : MonoBehaviour {
     public float minY = -3f;
     public float maxY = 4f;
 	// Use this for initialization
-	void Start () {
+	 void Start () {
         mousePos = transform.position;
 	}
-	void OnMouseDown(){
+	 void OnMouseDown(){
 		//hàm thực hiện khi nhấp chuột vào quân cờ được gán
 		mouse_down = true;
 	}
-	void OnMouseUp(){
+	public void OnMouseUp(){
 		//hàm thực hiện khi nhả chuột ra quân cờ được gán
 		mouse_down = false;
 		//làm tròn tọa độ cho khớp vô ô cờ
@@ -25,7 +25,7 @@ public class unit_move : MonoBehaviour {
 		mousePos.y = Mathf.Round(transform.position.y);
 	}
 	// Update is called once per frame
-	void Update () {
+	 void Update () {
 	    if (Input.GetMouseButton(0) && mouse_down == true)
         {
 			//cập nhật vị trí trỏ chuột vào mousePos
